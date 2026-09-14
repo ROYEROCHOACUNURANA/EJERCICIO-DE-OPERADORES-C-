@@ -1,8 +1,10 @@
-#include <iostream>
+include <iostream>
 using namespace std;
 int main() {
-    int A = 7, B = 3;
-    int C = ++A + B--; // A=8, C=8+3=11, B=2
-    cout << "A=" << A << " B=" << B << " C=" << C << endl; // SALIDA: 8, 2, 11
+    int X = 10, Y = 4;
+    X = X + Y; // 14
+    Y = X - Y; // 10
+    X = X - Y; // 4
+    cout << "X=" << X << " Y=" << Y << endl; // SALIDA: 4, 10
     return 0;
 }
